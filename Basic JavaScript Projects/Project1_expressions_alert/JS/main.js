@@ -19,3 +19,4 @@ document.write(Teacher);               //Writes the variable Teacher as "alex"
 
 document.write(2+2);                   //Solves 2+2, writes 4
 
+var buttonPressed = "You pressed the button. Nice."
