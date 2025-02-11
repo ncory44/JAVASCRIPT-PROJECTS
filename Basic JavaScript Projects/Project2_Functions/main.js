@@ -1,3 +1,6 @@
-<p id="demo">demo</p>;
+function changeText() {
+    let firstVar = "What's ";
+    let secondVar = "up?";
 
-<button onclick="document.getElementById('demo').innerHTML = Date()">What's the time you fat cow?</button>
+    document.getElementById("message").innerHTML = firstVar + secondVar;
+}
