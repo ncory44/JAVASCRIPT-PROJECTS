@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div>
+            <p>How many seconds would you like to set your alarm for?</p>
+            <input id="seconds" value="" />
+            <button onclick="countdown()">Click here</button>
+            <p id="timer"></p>
+        </div>
+        <!--Container-->
+        <div class="slideshow-container">
+            <!--IMAGE 1-->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/rainyForest1.jpg" style="width: 100%;">
+                <div class="text">Here is the first image of a rainy forest</div>
+            </div>
+            <!--IMAGE 2-->
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/rainyForest2.jpg" style="width: 100%;">
+                <div class="text">Here is the second image of a rainy forest</div>
+            </div>
+            <!--IMAGE 3-->
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/rainyForest3.png" style="width: 100%;">
+                <div class="text">Here is the third image of a rainy forest</div>
+            </div>
+
+            <!--NEXT & PREVIOUS BUTTONS-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!--Dots/Circles-->
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script src="JS/main.js"></script>
+    </body>
+</html>
