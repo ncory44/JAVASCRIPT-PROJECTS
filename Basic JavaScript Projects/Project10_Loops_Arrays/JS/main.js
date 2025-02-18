@@ -1,8 +1,10 @@
 //Creating a loop that counts down from 10 when the user clicks the button.
 function callLoop() {
     let text = "";
-    for (let x=1; x <= 10; x++) {
+    let x=1;
+    while (x <= 10) {
         text += x + " ";
+        x++;
     }
     document.getElementById("Loop").innerHTML = text;
 }
